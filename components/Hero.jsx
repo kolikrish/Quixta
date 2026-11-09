@@ -112,7 +112,7 @@ export default function Hero() {
               Web design, custom software and search growth for B2B businesses.
             </span>
           </p>
-          <a className="hx-cta" href="/contact">
+          <a className="hx-cta" href="#contact-section">
             <span className="hx-cta-t">Discuss your project</span>
             <span className="hx-cta-i" aria-hidden="true">
               <svg viewBox="0 0 40 40" aria-hidden="true">

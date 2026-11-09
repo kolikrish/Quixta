@@ -285,7 +285,7 @@ export default function WhereYouAreNow() {
                             <p className="wy-copy">{s.copy.split(/(\*\*[^*]+\*\*)/).map((t, k) => (t.startsWith("**") ? <b key={k}>{t.slice(2, -2)}</b> : t))}</p>
                           </div>
                           {/* desktop: the link sits in the card's lower notch */}
-                          <a className="wy-read wy-read--d" href="/contact">
+                          <a className="wy-read wy-read--d" href="#contact-section">
                             Discuss your project <WyMark />
                           </a>
                           <div className="wy-cardwrap">
@@ -294,7 +294,7 @@ export default function WhereYouAreNow() {
                                 <span className="wy-stat">{s.stat}</span>
                                 <p className="wy-quote">{s.quote}</p>
                               </div>
-                              <a className="wy-read" href="/contact">
+                              <a className="wy-read" href="#contact-section">
                                 Discuss your project <WyMark />
                               </a>
                             </div>

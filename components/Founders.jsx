@@ -14,7 +14,7 @@ function Ground() {
   return <svg className="fw2-ground" viewBox="0 0 1440 640" preserveAspectRatio="none" shapeRendering="crispEdges" aria-hidden="true">{GROUND.map(([x,y,w,h],i)=><rect key={i} x={x} y={y} width={w} height={h} />)}</svg>;
 }
 
-export default function FeaturedWork() {
+export default function Founders() {
   const stackRef = useRef(null);
   useEffect(() => {
     const stack = stackRef.current;

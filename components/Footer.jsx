@@ -4,8 +4,8 @@ function Arrow() {
   return <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M7 5h12v12" fill="none" stroke="currentColor" strokeWidth="2" /></svg>;
 }
 
-export default function Footer({ hideCta = false, hideContactCta = false }) {
-  const showCta = !hideCta && !hideContactCta;
+export default function Footer({ hideCta = false }) {
+  const showCta = !hideCta;
   return (
     <footer className="qf" id="contact">
       <div className="qf__inner">
@@ -17,7 +17,7 @@ export default function Footer({ hideCta = false, hideContactCta = false }) {
               <p>Websites, software and search experiences shaped around your business.</p>
             </div>
             <div className="qf__actions">
-              <Link className="qf__button qf__button--primary" href="/contact">Discuss your project <Arrow /></Link>
+              <Link className="qf__button qf__button--primary" href="#contact-section">Discuss your project <Arrow /></Link>
               <Link className="qf__button qf__button--secondary" href="/#work">Explore the portfolio <Arrow /></Link>
             </div>
             <span className="qf__step" aria-hidden="true" />
@@ -35,7 +35,7 @@ export default function Footer({ hideCta = false, hideContactCta = false }) {
             <Link href="/">Home</Link>
             <Link href="/#levers">Services</Link>
             <Link href="/#work">Portfolio</Link>
-            {!hideContactCta && <Link href="/contact">Contact</Link>}
+            <Link href="#contact-section">Contact</Link>
           </nav>
         </div>
 

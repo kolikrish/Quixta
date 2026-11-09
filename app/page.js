@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import HeroCurtain from "../components/HeroCurtain";
-import FeaturedWork from "../components/FeaturedWork";
+// import FeaturedWork from "../components/Founders";
 import FeaturedWorkMobile from "../components/FeaturedWorkMobile";
 import WhereYouAreNow from "../components/WhereYouAreNow";
 import Levers from "../components/Levers";
@@ -11,6 +11,7 @@ import Partnership from "../components/Partnership";
 import News from "../components/News";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
+import Founders from "../components/Founders";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
       <HeroCurtain />
       {/* Desktop and mobile portfolio layouts share one section anchor. */}
       <div id="featured">
-        <FeaturedWork />
+        <Founders />
         <FeaturedWorkMobile />
       </div>
       <WhereYouAreNow />
