@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
 import HeroCurtain from "../components/HeroCurtain";
-// import FeaturedWork from "../components/Founders";
 import FeaturedWorkMobile from "../components/FeaturedWorkMobile";
 import WhereYouAreNow from "../components/WhereYouAreNow";
 import Levers from "../components/Levers";
@@ -29,7 +28,6 @@ export default function Home() {
       <WhyQuixta />
       <TeamSection />
       <SelectedWork />
-      {/* Founders section is hidden for now */}
       <Partnership />
       <CaseStudies />
       <News />
