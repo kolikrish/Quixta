@@ -8,6 +8,7 @@ import SelectedWork from "../components/SelectedWork";
 import CaseStudies from "../components/CaseStudies";
 import Partnership from "../components/Partnership";
 import News from "../components/News";
+import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <Partnership />
       <CaseStudies />
       <News />
+      <ContactSection />
       <Footer />
     </>
   );
