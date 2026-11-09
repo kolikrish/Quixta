@@ -5,6 +5,7 @@ import FeaturedWorkMobile from "../components/FeaturedWorkMobile";
 import WhereYouAreNow from "../components/WhereYouAreNow";
 import Levers from "../components/Levers";
 import WhyQuixta from "../components/WhyQuixta";
+import TeamSection from "../components/TeamSection";
 import SelectedWork from "../components/SelectedWork";
 import CaseStudies from "../components/CaseStudies";
 import Partnership from "../components/Partnership";
@@ -26,6 +27,7 @@ export default function Home() {
       <WhereYouAreNow />
       <Levers />
       <WhyQuixta />
+      <TeamSection />
       <SelectedWork />
       {/* Founders section is hidden for now */}
       <Partnership />
