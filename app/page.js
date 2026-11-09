@@ -29,7 +29,7 @@ export default function Home() {
       <TeamSection />
       <SelectedWork />
       <Partnership />
-      <CaseStudies />
+      <CaseStudies /> 
       <News />
       <ContactSection />
       <Footer />
